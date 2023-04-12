@@ -103,22 +103,22 @@ nav .menu{
   padding: 0 10px;
   cursor: pointer;
   outline: none;
-  transition: all 0.3s ease;
+  transition: 1s ease-in-out;
 }
 .center .btns button:first-child{
   color: black;
   background: #fff;
   border-radius: 10rem;
 }
-.btns button:first-child:hover{
-  color: white;
-  background: none;
-  border: 1px solid white;
-}
+
 .center .btns button:last-child{
+  background: none;
+  color: #fff;
+}
+.btns button:last-child:hover{
   background: white;
   color: black;
-  border-radius: 10rem;
+
 }
 .btns button:last-child:hover{
   border: 1px solid white;
